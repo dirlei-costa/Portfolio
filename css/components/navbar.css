@@ -58,6 +58,7 @@
 
   .navbar .navbar__content .navbar__mobile.active .mobile__links {
     display: flex;
+    color: #5d5d5d;
     flex-direction: column;
     background-color: var(--white);
     width: 100%;
