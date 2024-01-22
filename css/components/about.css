@@ -13,9 +13,14 @@
 .about .about__left p {
   margin: 1rem 0 2rem;
 }
+.btn:hover {
+  cursor: pointer;
+  color: #f9ce34;
+  opacity: 0.9;
+}
 
 .about .about__left ul {
-  margin-left: -1.2rem;
+  margin-left: -0.5rem;
 }
 
 .about .about__left ul li {
@@ -26,6 +31,19 @@
   display: inline-block;
   padding: 1rem;
   cursor: pointer;
+}
+
+.icon {
+  font-size: 3rem;
+  transition: 0.5s ease;
+  z-index: 2;
+}
+.item a:hover .icon {
+  transform: rotateY(360deg);
+  opacity: 0.6;
+}
+.item:nth-child(2) {
+  color: linear-gradient(to bottom right, #f9ce34, #ee2a7b, #6228d7);
 }
 
 .about .about__right {
